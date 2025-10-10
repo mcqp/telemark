@@ -1,0 +1,12 @@
+[package]
+name = "telemark"
+version = "0.1.0"
+edition = "2024"
+description = "Telegram MarkdownV1 syntax validator and parser library."
+authors = ["Mohaned Sherhan"]
+license-file = "LICENSE"
+keywords = ["parser", "telegram", "markdown"]
+repository = "https://github.com/mcqp/telemark"
+homepage = "https://github.com/mcqp/telemark"
+
+[dependencies]
