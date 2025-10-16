@@ -9,4 +9,10 @@ keywords = ["parser", "telegram", "markdown"]
 repository = "https://github.com/mcqp/telemark"
 homepage = "https://github.com/mcqp/telemark"
 
+[profile.release]
+strip = true
+opt-level = "s"
+lto = true
+codegen-units = 1
+
 [dependencies]
