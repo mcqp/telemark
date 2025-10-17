@@ -24,7 +24,7 @@ fn main() {
     }
 
     // This is an error:
-    if let Err(err) = mdv1::parser("this isi not bold*") {
+    if let Err(err) = mdv1::parser("this is not bold*") {
         println!("The error: {:#?}", err);
         println!("The error type: {:#?}", err.err());
         println!("The error position: {}", err.offset());
